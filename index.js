@@ -14,7 +14,7 @@ const search   = "******";
         isMobile: false
     });
 
-    await page.goto('https://twitter.com/login', {waitUntil: 'networkidle2'});
+    await page.goto('https://mobile.twitter.com/login', {waitUntil: 'networkidle2'});
 
     //LOGIN
     await page.type('input[name="session[username_or_email]"]',username,{delay: 25});
